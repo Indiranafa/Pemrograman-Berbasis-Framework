@@ -1,0 +1,14 @@
+.title {
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2563eb; /* biru mirip Tailwind text-blue-600 */
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
