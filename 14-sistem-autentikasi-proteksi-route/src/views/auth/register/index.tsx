@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import styles from './register.module.css';
-
+//register page
 const halamanRegister = () => {
     return (
         <div className={styles.register}>
