@@ -47,6 +47,7 @@ export const authOptions: NextAuthOptions = {
       }
       return token;
     },
+    
     async session({ session, token }: any) {
       if (token.email) {
         session.user.email = token.email;
